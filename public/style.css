@@ -1,0 +1,74 @@
+.co{
+   background-color: #bbb4b4;
+}
+@media only screen and (max-width: 600px) {
+    .im{
+      width: 80px;
+    }
+  }
+  /* @media only screen and (max-width: 400px) {
+    .img{
+      width: 150px;
+    }
+  }
+  @media only screen and (max-width: 300px) {
+    .img{
+      width: 80px;
+    } */
+  /* } */
+  @media only screen and (max-width: 600px) {
+    .raa{
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .displ{
+    display: none;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .padd{
+      padding:0 ;
+      margin: 0;
+    }
+  }
+  @media only screen and (min-width: 600px) {
+    .noo{
+     display: none;
+    }
+  }
+  .colo{
+      background-color: darkgray;
+      color: black;
+      border: none;
+      outline: none;
+      
+    }
+.nn{
+      color: black;
+      text-decoration-style: none;
+      list-style: none;
+      
+  }
+  .nn:hover{
+    color: black;
+  }
+  .po{
+    position: relative;
+    overflow: hidden;
+  }
+  .port{
+    
+    background-color: rgba(0, 0, 0, .7);
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    transition: all 0.5s;
+   
+}
+.po:hover .port{
+    left  : 0;
+}
